@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    align-items: stretch;
+}
+.flexitem {
+    display: flex;
+}
+#bild-vanster {
+    background: #ffffff;
+    order: -1;
+    flex-basis: 20%;
+    opacity: 0.5;
+}
+#content {
+    background: #ffffff;
+    order: 1;
+    padding: 3rem;
+    flex-basis: 80%;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+#content p {
+    display: block;
+}
+.fixed {
+    position: fixed;
+    width: 20%;
+    background-image: url(../media/food/thai.JPG);
+    height: 100%;
+    background-position-x: -630px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sidebar {
+    width: 20%;
+}
+.menuitem {
+    border: 0px solid green;
+    padding: 1rem;
+    flex-basis: 30%;
+    margin-bottom: 3rem;
+    text-align: center;
+    align-items: flex-end;
+    font-weight: lighter;
+}
+h3 {
+    border: 0px solid black;
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.menuitem .price {
+    color: rgb(255, 0, 55);
+    font-size: 16px;
+    text-align: center;
+}
+hr.dotted {
+    border-top: 1px solid red;
+}
+.divider {
+    border: 0px solid black;
+    flex-basis: 100%;
+    text-align: center;
+    margin: 3rem 0 3rem;
+}
+img.divider {
+    opacity: 0.5
+}
+header {
+    background-color: #ffffff;
+}
+footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    flex-basis: 100%;
+    margin-top: 100px;
+  }
+li {
+    margin-left: 5rem;
+}
