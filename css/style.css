@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
 }
-
 .flexcontainer {
     display: flex;
     flex-direction: row;
@@ -41,7 +40,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .sidebar {
     width: 20%;
 }
@@ -81,7 +79,6 @@ header {
     background-color: #ffffff;
 }
 footer {
-    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -90,7 +87,7 @@ footer {
     text-align: center;
     flex-basis: 100%;
     margin-top: 100px;
-  }
+}
 li {
     margin-left: 5rem;
 }
